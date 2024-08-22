@@ -34,6 +34,6 @@ print(array)
 # sort(reverse = True) : 내림차순으로 정렬
 # insert(index, value) : 특정 인덱스에 요소를 삽입
 # remove() : 리스트에 첫 번째로 나타나는 값이 지정한 요소와 같으면 삭제
-# count(value) : vlaue가 몇 개 있는지
+# count(value) : 리스트에 value가 몇 개 있는지 개수를 센다.
 # pop() : 마지막 요소 삭제
 # clear() : 모든 요소 삭제
