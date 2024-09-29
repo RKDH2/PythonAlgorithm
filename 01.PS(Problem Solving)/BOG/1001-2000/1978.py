@@ -15,3 +15,26 @@ for num in l:
             count += 1
 
 print(count)
+
+
+# 다른 방법
+import sys
+
+input = sys.stdin.readline
+
+n = int(input())
+l = map(int, input().split())
+count = 0
+
+for num in l:
+    flag = True
+    if num > 1:
+        for i in range(2, int(num ** 0.5) + 1):
+            if num % i == 0:
+                flag = False
+                break
+
+        if flag:
+            count += 1
+
+print(count)
