@@ -7,3 +7,4 @@ print(min_result, max_result)
 
 result = eval("(3+5)*7")
 print(result)
+
